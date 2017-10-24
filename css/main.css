@@ -7,58 +7,44 @@ html {
 }
 
 /*======= reset some basic elements =======*/
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, di, dd, ul, ol, figure {
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dd, ul, ol, figure {
   margin: 0;
   padding: 0;
 }
 
-/*======= Body =======*/
-div {
-  border: 6px solid #949599;
-  /*margin: 20px;*/
-  /*padding: 20px;*/
-  /*height: 100px;*/
-  /*width: 50%*/;
-}
+
 
 .OutterBox {
   position: relative;
-  width: 90%;
-  height: 90%;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
 }
 
-.Box1 {
-  position: relative;
+.Box1, .Box2, .Box3, .Box4 {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  border: 1px solid green;
+}
+
+/*.Box1 {
   top: 0%;
   left: 0%;
-  height:50%;
-  width: 50%;
-  background-color: white;
-}
+}*/
 
 .Box2 {
-  position: relative;
   bottom: 0%;
   left: 0%;
-  height:50%;
-  width: 50%;
-  background-color: white;
 }
 
 .Box3 {
-  position: absolute;
   top: 0%;
   right: 0%;
-  height:50%;
-  width: 50%;
-  background-color: white;
 }
 
 .Box4 {
-  position: absolute;
   bottom: 0%;
   right: 0%;
-  height: 50%;
-  width: 50%;
-  background-color: white;
 }
